@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Personal Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.svg" alt="Profile illustration of a web developer">
+            <p>
+                I am a BIT student currently studing at MIT, I have so far learned programming, web development,
+                databases management and networking. I enjoy building practical projects and improving my technical
+                skills through projects.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <dl>
+                <dt>HTML5</dt>
+                <dd>Web design and content.</dd>
+                <dt>CSS</dt>
+                <dd>Basic knowledge of styling and and responsive layouts.</dd>
+                <dt>Programming</dt>
+                <dd>Experience in C and fundamental programming concepts.</dd>
+                <dt>Databases</dt>
+                <dd>Knowledge of SQL, relational databases and database design.</dd>
+                <dt>Networking</dt>
+                <dd>Understanding of IP addressing, routing, VLANs and network security.</dd>
+            </dl>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Supermarket Billing System</h3>
+                <p>
+                    A programming project designed to manage products, calculate customer
+                    bills, and organize basic customer information.
+                </p>
+                <p>
+                    <a href="https://github.com/example/supermarket-billing-system"> View repository </a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A simple HTML5 portfolio that presents my background,
+                    technical skills, projects, and contact information without CSS.
+                </p>
+                <p>
+                    <a href="https://github.com/example/personal-portfolio"> View repository </a>
+                </p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
